@@ -42,46 +42,9 @@
 ## Допустимые задачи (одна на студента)
 
 Ниже 10 вариантов из разных доменов: табличные данные, тексты, изображения, мультимодальные данные, временные ряды, аудио.
-
-### 1. Titanic — Machine Learning from Disaster
-- Домен: табличные данные
-- Ссылка: <https://www.kaggle.com/competitions/titanic>
-
-### 2. House Prices — Advanced Regression Techniques
-- Домен: табличные данные
-- Ссылка: <https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques>
-
-### 3. Store Sales — Time Series Forecasting
-- Домен: временные ряды / retail
-- Ссылка: <https://www.kaggle.com/competitions/store-sales-time-series-forecasting>
-
-### 4. Natural Language Processing with Disaster Tweets
-- Домен: NLP / тексты
-- Ссылка: <https://www.kaggle.com/competitions/nlp-getting-started>
-
-### 5. Jigsaw Toxic Comment Classification Challenge
-- Домен: NLP / тексты
-- Ссылка: <https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge>
-
-### 6. Feedback Prize — English Language Learning
-- Домен: NLP / тексты
-- Ссылка: <https://www.kaggle.com/competitions/feedback-prize-english-language-learning>
-
-### 7. Cassava Leaf Disease Classification
-- Домен: компьютерное зрение / изображения
-- Ссылка: <https://www.kaggle.com/competitions/cassava-leaf-disease-classification>
-
-### 8. SIIM-ISIC Melanoma Classification
-- Домен: medical imaging
-- Ссылка: <https://www.kaggle.com/competitions/siim-isic-melanoma-classification>
-
-### 9. PetFinder.my Adoption Prediction
-- Домен: мультимодальные данные (табличные + текст + изображения)
-- Ссылка: <https://www.kaggle.com/competitions/petfinder-adoption-prediction>
-
-### 10. BirdCLEF 2024
-- Домен: аудио
-- Ссылка: <https://www.kaggle.com/competitions/birdclef-2024>
+[Таблица с задачами ](https://docs.google.com/spreadsheets/d/12AKTRsPqYcCutPfVtPAOAP7gJF9f6Ti29GJnvAl2YIY/edit?gid=1545561059#gid=1545561059)
+ 
+*Каждый студент выбирает одну задачу из этой таблицы*
 
 ---
 
