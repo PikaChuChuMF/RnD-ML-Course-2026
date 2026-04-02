@@ -45,62 +45,42 @@
 
 ### 1. Titanic — Machine Learning from Disaster
 - Домен: табличные данные
-- Тип задачи: бинарная классификация
-- Особенности (и почему может вам подойти): простой вход, но можно хорошо обсудить признаки, пропуски, лики, честный split, calibration
 - Ссылка: <https://www.kaggle.com/competitions/titanic>
 
 ### 2. House Prices — Advanced Regression Techniques
 - Домен: табличные данные
-- Тип задачи: регрессия
-- Особенности (и почему может вам подойти): хороший пример для feature engineering, работы с пропусками, skewed target, выбора метрик
 - Ссылка: <https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques>
 
 ### 3. Store Sales — Time Series Forecasting
 - Домен: временные ряды / retail
-- Тип задачи: прогнозирование
-- Особенности (и почему может вам подойти): можно показать, почему случайный split некорректен, и построить честный time-based validation
 - Ссылка: <https://www.kaggle.com/competitions/store-sales-time-series-forecasting>
 
 ### 4. Natural Language Processing with Disaster Tweets
 - Домен: NLP / тексты
-- Тип задачи: бинарная классификация текста
-- Особенности (и почему может вам подойти): хороший старт для сравнения TF-IDF baseline vs transformer baseline
 - Ссылка: <https://www.kaggle.com/competitions/nlp-getting-started>
 
 ### 5. Jigsaw Toxic Comment Classification Challenge
 - Домен: NLP / тексты
-- Тип задачи: multi-label классификация
-- Особенности (и почему может вам подойти): полезна для обсуждения multi-label постановки, imbalance, thresholding, выбора primary/secondary metrics
 - Ссылка: <https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge>
 
 ### 6. Feedback Prize — English Language Learning
 - Домен: NLP / тексты
-- Тип задачи: многомерная регрессия по тексту
-- Особенности (и почему может вам подойти): уже менее тривиальная постановка, удобно обсуждать multi-target metric и качество baseline
 - Ссылка: <https://www.kaggle.com/competitions/feedback-prize-english-language-learning>
 
 ### 7. Cassava Leaf Disease Classification
 - Домен: компьютерное зрение / изображения
-- Тип задачи: многоклассовая классификация изображений
-- Особенности (и почему может вам подойти): удобная задача для обсуждения аугментаций, class imbalance, pretrained backbones
 - Ссылка: <https://www.kaggle.com/competitions/cassava-leaf-disease-classification>
 
 ### 8. SIIM-ISIC Melanoma Classification
 - Домен: medical imaging
-- Тип задачи: бинарная классификация изображений
-- Особенности (и почему может вам подойти): полезна для обсуждения imbalance, medical split, ROC-AUC, рисков утечки по пациенту
 - Ссылка: <https://www.kaggle.com/competitions/siim-isic-melanoma-classification>
 
 ### 9. PetFinder.my Adoption Prediction
 - Домен: мультимодальные данные (табличные + текст + изображения)
-- Тип задачи: ordinal / classification-style prediction
-- Особенности (и почему может вам подойти): хороший пример более «реальной» messy-задачи и обсуждения того, какой baseline считать честным
 - Ссылка: <https://www.kaggle.com/competitions/petfinder-adoption-prediction>
 
 ### 10. BirdCLEF 2024
 - Домен: аудио
-- Тип задачи: классификация аудиосигналов
-- Особенности (и почему может вам подойти): полезна для обсуждения feature extraction, спектрограмм, а также trade-off между простотой baseline и качеством
 - Ссылка: <https://www.kaggle.com/competitions/birdclef-2024>
 
 ---
@@ -152,7 +132,7 @@
 - что считается одним предсказанием;
 - какие признаки доступны на inference.
 
-### 3. Данные
+### 3. Данные (EDA)
 Нужно кратко описать:
 - источник данных;
 - размер данных;
@@ -230,11 +210,6 @@ Baseline должен быть **достаточно простым**, чтоб
 - Влияет ли балансировка классов на recall редкого класса?
 - Улучшают ли аугментации качество на сложных примерах или только подгоняют train?
 - Насколько чувствителен результат к seed?
-- Есть ли систематические ошибки на определенных подгруппах данных?
-- Меняется ли качество, если убрать потенциально шумные примеры?
-- Помогает ли лог-преобразование таргета в регрессии?
-- Что происходит с качеством при переходе от random split к group/time split?
-- Насколько сильна разница между «очень простым» baseline и «чуть более сильным, но все еще честным» baseline?
 
 ### Примеры плохих вопросов
 - Какая модель лучше?
